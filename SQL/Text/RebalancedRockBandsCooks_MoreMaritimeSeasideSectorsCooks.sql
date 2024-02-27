@@ -1,4 +1,4 @@
--- Match text of More Maritime: Seaside Sectors - Fixes
+-- Match text of More Maritime: Seaside Sectors - Cooks
 
 INSERT OR REPLACE INTO "LocalizedText"
 	(	"Language",	"Tag",									"Text"																																										)

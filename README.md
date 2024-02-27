@@ -1,16 +1,16 @@
-# GrayPockets - Nere's Rebalanced Rock Bands - Fixes
+# GrayPockets - Nere's Rebalanced Rock Bands - Cooks
 
 ## Description
 
-This mod fixes several items in "Nere's Rebalanced Rock Bands"
+This mod cooks several items in "Nere's Rebalanced Rock Bands"
 
-* Reset GlobalParameters and number of Rockband Promotion choices
-* Correct promotion text to match the changes
+* Correct promotion text to match Nerevatar's modifications
+* Reset GlobalParameters and number of Rockband Promotion choices back to base game
 
 ## Mod Support
 
 * Monopoly++: Celebrities
-* More Maritime: Seaside Sectors - Fixes
+* More Maritime: Seaside Sectors - Cooks
 
 ## Requirements
 
