@@ -10,7 +10,7 @@ This mod cooks several items in "Nere's Rebalanced Rock Bands"
 ## Mod Support
 
 * Monopoly++: Celebrities
-* More Maritime: Seaside Sectors - Cooks
+* More Maritime: Seaside Sectors
 
 ## Requirements
 

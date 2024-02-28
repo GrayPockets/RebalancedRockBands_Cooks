@@ -7,7 +7,7 @@
     <ProjectGuid>7056301e-311c-4ae9-9cfd-1e6a4828f456</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Cooks for Nere's Rebalanced Rock Bands</Teaser>
-    <Description>This mod cooks several items in "Nere's Rebalanced Rock Bands"[NEWLINE][NEWLINE][ICON_BULLET] Correct promotion text to match Nerevatar's modifications[NEWLINE][ICON_BULLET] Reset GlobalParameters and number of Rockband Promotion choices back to base game[NEWLINE][NEWLINE]Mod Support[NEWLINE][ICON_BULLET] Leugi's [COLOR:ResGoldLabelCS]Monopoly++:[ENDCOLOR] Celebrities[NEWLINE][ICON_BULLET] [COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - More Maritime: Seaside Sectors - Cooks</Description>
+    <Description>This mod cooks several items in "Nere's Rebalanced Rock Bands"[NEWLINE][NEWLINE][ICON_BULLET] Correct promotion text to match Nerevatar's modifications[NEWLINE][ICON_BULLET] Reset GlobalParameters and number of Rockband Promotion choices back to base game[NEWLINE][NEWLINE]Mod Support[NEWLINE][ICON_BULLET] Leugi's [COLOR:ResGoldLabelCS]Monopoly++:[ENDCOLOR] Celebrities[NEWLINE][ICON_BULLET] More Maritime: Seaside Sectors</Description>
     <Authors>GrayPockets</Authors>
     <SpecialThanks>Nerevatar</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -21,10 +21,10 @@
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Dependency type="Mod" title="Nere's Rebalanced Rock Bands" id="fefdd68f-8631-59d7-8155-c64828d2db60" />
   <Reference type="Mod" title="Leugi's [COLOR:ResGoldLabelCS]Monopoly++:[ENDCOLOR] Celebrities" id="66cfee5f-879a-4eb4-8789-0070470b2b0e" />
-  <Reference type="Mod" title="[COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - More Maritime: Seaside Sectors - Cooks" id="6061be9e-30a5-45a1-814b-08bda4bf4871" />
+  <Reference type="Mod" title="More Maritime: Seaside Sectors" id="58ecce8a-d3df-430a-b135-280908153662" />
 </Associations>]]></AssociationData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="Text_RebalancedRockBandsCooks"><Properties><LoadOrder>1</LoadOrder></Properties><File>SQL/Text/RebalancedRockBandsCooks.sql</File></UpdateText><UpdateText id="Text_RebalancedRockBandsCooks_MoreMaritimeSeasideSectorsCooks"><Properties><LoadOrder>2</LoadOrder></Properties><Criteria>ModInUse GrayPockets - More Maritime: Seaside Sectors - Cooks</Criteria><File>SQL/Text/RebalancedRockBandsCooks_MoreMaritimeSeasideSectorsCooks.sql</File></UpdateText><UpdateDatabase id="Game_RebalancedRockBandsCooks"><Properties><LoadOrder>100000</LoadOrder></Properties><File>SQL/Game/RebalancedRockBandsCooks.sql</File></UpdateDatabase><UpdateDatabase id="Game_RebalancedRockBandsCooks_MonopolyCelebrities"><Properties><LoadOrder>100001</LoadOrder></Properties><Criteria>ModInUse Leugi's Monopoly++: Celebrities</Criteria><File>SQL/Game/RebalancedRockBandsCooks_MonopolyCelebrities.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="ModInUse Leugi's Monopoly++: Celebrities"><ModInUse>66cfee5f-879a-4eb4-8789-0070470b2b0e</ModInUse></Criteria><Criteria id="ModInUse GrayPockets - More Maritime: Seaside Sectors - Cooks"><ModInUse>6061be9e-30a5-45a1-814b-08bda4bf4871</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="Text_RebalancedRockBandsCooks"><Properties><LoadOrder>1</LoadOrder></Properties><File>SQL/Text/RebalancedRockBandsCooks.sql</File></UpdateText><UpdateText id="Text_RebalancedRockBandsCooks_MoreMaritimeSeasideSectorsCooks"><Properties><LoadOrder>2</LoadOrder></Properties><Criteria>ModInUse More Maritime: Seaside Sectors</Criteria><File>SQL/Text/RebalancedRockBandsCooks_MoreMaritimeSeasideSectors.sql</File></UpdateText><UpdateDatabase id="Game_RebalancedRockBandsCooks"><Properties><LoadOrder>100000</LoadOrder></Properties><File>SQL/Game/RebalancedRockBandsCooks.sql</File></UpdateDatabase><UpdateDatabase id="Game_RebalancedRockBandsCooks_MonopolyCelebrities"><Properties><LoadOrder>100001</LoadOrder></Properties><Criteria>ModInUse Leugi's Monopoly++: Celebrities</Criteria><File>SQL/Game/RebalancedRockBandsCooks_MonopolyCelebrities.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="ModInUse Leugi's Monopoly++: Celebrities"><ModInUse>66cfee5f-879a-4eb4-8789-0070470b2b0e</ModInUse></Criteria><Criteria id="ModInUse More Maritime: Seaside Sectors"><ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -35,7 +35,7 @@
     <Folder Include="SQL\Text" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SQL\Text\RebalancedRockBandsCooks_MoreMaritimeSeasideSectorsCooks.sql">
+    <Content Include="SQL\Text\RebalancedRockBandsCooks_MoreMaritimeSeasideSectors.sql">
       <SubType>Content</SubType>
     </Content>
     <None Include=".gitignore">
